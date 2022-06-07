@@ -1,0 +1,90 @@
+.img{
+    width: 250px;
+    border-radius: 250px;
+    border: 2px solid white;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.font{
+    margin-left: 38%;
+    color: rgb(0, 217, 255);
+    
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(7, 255, 255, 0.753)), url(py.jpg);    
+    background-size: cover;
+    /* background-position: center; */
+    height: 400vh;
+    width: 100%;
+    background-attachment: fixed;
+
+    
+}
+.library{
+    background-color: rgb(206, 255, 255);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 100vh;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+.library h2{
+    color: red;
+    margin-left: 5%;
+}
+.library2{
+    top: 5%;
+    background-color: rgb(206, 255, 255);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 100vh;
+    margin-left: 10%;
+}
+.library2 h2{
+    color: red;
+    margin-left: 5%;
+}
+.p{
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+}
+.video{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 7px;
+    border: 2px solid white;
+}
+hr{
+    background-color: purple;
+    color: purple;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#p{
+    color: white;
+    margin-left: 30%;
+
+}
+@media screen and (max-width: 770px){
+    .img{
+        margin-left: 30%;
+        width: 150px;
+    }
+    .font{
+        font-size: 18px;
+        margin-left: 24%;
+    }
+    #p{
+        text-align: center;
+        margin-left: 7%;
+    }
+    .library{
+        height: 60vh;
+    }
+}
